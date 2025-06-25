@@ -406,7 +406,7 @@
   flex-direction: column;
   row-gap: var(--grid-mobile-vertical-spacing);
 }
- .custom_img-txt .image-with-text__content{padding:9rem 7rem 9rem}
+
 @media screen and (min-width: 750px) {
 
   .multirow__inner {
@@ -417,6 +417,14 @@
    .custom_img-txt .image-with-text__content{padding:2rem 3rem 2rem}
 }
 @media(max-width:749px) {
-
-  .custom_img-txt .image-with-text__content{padding:2.2rem }
+.custom_img-txt .image-with-text__content .wrap_text h2 {
+    margin-top: 0;margin-bottom: 10px;
+}
+  .custom_img-txt .image-with-text__content{        padding: 4.0rem 2rem;margin-left: 0;
+        width: calc(100% - 10px);
+        box-sizing: border-box;}
+        .wrap_text {
+    padding: 15px;
+    border: 2px solid #ECECEC;
+}
 }

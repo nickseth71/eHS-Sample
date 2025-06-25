@@ -167,14 +167,14 @@
         "feature_PJBaWh": {
           "type": "feature",
           "settings": {
-            "icon": "shopify://shop_images/Group_25.svg",
+            "icon": "shopify://shop_images/Group_25_f3cacb9c-00b6-44a5-95cb-fa2261ec2d77.svg",
             "heading": "Free Returns On All Orders"
           }
         },
         "feature_ATYiee": {
           "type": "feature",
           "settings": {
-            "icon": "shopify://shop_images/Group_3.svg",
+            "icon": "shopify://shop_images/Group_3_851e63af-245a-4e24-be35-f754ea19d4b5.svg",
             "heading": "Safe & Secure Checkout"
           }
         }
@@ -188,8 +188,8 @@
       "settings": {
         "columns_desktop": 3,
         "color_scheme": "scheme-4",
-        "padding_top": 56,
-        "padding_bottom": 56
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
