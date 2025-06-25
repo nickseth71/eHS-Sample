@@ -9,13 +9,13 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/fakestore-logo.png",
-    "logo_width": 90,
-    "type_header_font": "assistant_n4",
+    "logo": "shopify://shop_images/fakestore-logo_709263ce-bf2d-4911-99ea-a85eb54d7276.png",
+    "logo_width": 230,
+    "type_header_font": "roboto_n7",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "roboto_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1330,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -147,22 +147,22 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
+          "text": "#4a4a4a",
+          "button": "#4a4a4a",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "secondary_button_label": "#4a4a4a",
+          "shadow": "#4a4a4a"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#f3f3f3",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "text": "#141414",
+          "button": "#141414",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#141414",
+          "shadow": "#141414"
         }
       },
       "scheme-3": {
