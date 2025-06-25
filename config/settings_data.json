@@ -23,7 +23,7 @@
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 5,
+    "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -178,18 +178,18 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#121212",
           "background_gradient": "linear-gradient(225deg, #FAFBFB 0%, #F7F8F8 100%)",
           "text": "#141414",
-          "button": "#ffffff",
-          "button_label": "#121212",
+          "button": "#141414",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
           "shadow": "#141414"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#005bc4",
+          "background": "#334fb4",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
