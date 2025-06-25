@@ -1330,3 +1330,29 @@ class CartPerformance {
     );
   }
 }
+//custom padding calculation script
+document.addEventListener('DOMContentLoaded', function () {
+  const sticky = document.querySelector('sticky-header.header-wrapper');
+  const header = document.querySelector('.header');
+
+  if (!sticky || !header) return;
+
+  const stickyRect = sticky.getBoundingClientRect();
+  const headerRect = header.getBoundingClientRect();
+
+  const diff = stickyRect.width - headerRect.width;
+  console.log('Header width:', headerRect.width);
+  console.log('Sticky width:', stickyRect.width);
+  console.log('Difference (right spacing):', diff);
+
+  const right_padding = diff + 100;
+  const r_diff = right_padding / 2;
+
+  console.log(r_diff);
+
+  if (window.innerWidth >= 749) {
+    document.querySelectorAll('.page-full-width').forEach(el => {
+      el.style.paddingLeft = `${r_diff}px`;
+    });
+  }
+});
