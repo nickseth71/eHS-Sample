@@ -1,0 +1,51 @@
+<div class="page-width">
+<div class="icon-feature-row">
+  <div class="feature-row-container grid grid--1-col-tablet-down grid--3-col-desktop">
+    {% for block in section.blocks %}
+    {% assign b = block.settings %}
+      <div class="feature-item grid__item">
+        {% if b.icon != blank %}
+        {{ b.icon | image_url: width:300 | image_tag: loading: 'lazy', class: 'feature-icon' }}
+        {% endif %}
+        <p class="feature-text">{{ b.heading }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+{% schema %}
+{
+  "name": "Icon Feature Row",
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading Text",
+          "default": "FREE SHIPPING ON ALL ORDERS"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Icon Feature Row",
+      "category": "Custom",
+      "blocks": [
+        { "type": "feature" },
+        { "type": "feature" },
+        { "type": "feature" }
+      ]
+    }
+  ]
+}
+{% endschema %}
