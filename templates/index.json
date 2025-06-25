@@ -51,6 +51,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/hero_image.png",
+        "mobile_image": "shopify://shop_images/mobile-banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
@@ -96,7 +97,8 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/image_block.png",
+        "add_class": "custom_img-txt",
+        "image": "shopify://shop_images/image-block_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -105,10 +107,10 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "padding_top": 52,
+        "padding_bottom": 0
       }
     },
     "image_block_rCbtUi": {
@@ -117,7 +119,7 @@
         "column_YgQwUJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/promo-img1.png",
+            "image": "shopify://shop_images/new-arrival-img.jpg",
             "title": "NEW ARRIVALS",
             "text": "<p>Our latest Summer styles. Fresh. Fun. Fabulous.</p><p><a href=\"#\" title=\"#\">WOMEN</a>    |    <a href=\"#\" title=\"#\">MEN    </a>|    <a href=\"#\" title=\"#\">KIDS    </a>|    <a href=\"#\" title=\"#\">HOME</a></p>",
             "link_label": "",
@@ -127,7 +129,7 @@
         "column_qCNaXC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/promo-img1.png",
+            "image": "shopify://shop_images/college-bound-img.jpg",
             "title": "COLLEGE BOUND",
             "text": "<p>New places and new faces. Same great style.</p><p><a href=\"#\" title=\"#\">SHOP DORM DECOR</a></p>",
             "link_label": "",
@@ -146,10 +148,10 @@
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 28,
+        "padding_bottom": 72
       }
     },
     "icon_feature_row_L4MCQA": {
@@ -159,21 +161,21 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/shipping-icon.svg",
-            "heading": "FREE SHIPPING ON ALL ORDERS"
+            "heading": "Free Shipping On All Orders"
           }
         },
         "feature_PJBaWh": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Group_25.svg",
-            "heading": "FREE SHIPPING ON ALL ORDERS"
+            "heading": "Free Returns On All Orders"
           }
         },
         "feature_ATYiee": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Group_3.svg",
-            "heading": "FREE SHIPPING ON ALL ORDERS"
+            "heading": "Safe & Secure Checkout"
           }
         }
       },
@@ -183,7 +185,12 @@
         "feature_ATYiee"
       ],
       "name": "Icon Feature Row",
-      "settings": {}
+      "settings": {
+        "columns_desktop": 3,
+        "color_scheme": "scheme-4",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
     }
   },
   "order": [

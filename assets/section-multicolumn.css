@@ -52,6 +52,12 @@
   .multicolumn .button {
     margin-top: 4rem;
   }
+  .multicolumn-card__info{position: absolute;
+    bottom: 30px;
+    background: #fff;
+    left: 45px;
+    right: 45px;
+    margin: auto;}
 }
 
 .multicolumn-list {
@@ -89,8 +95,8 @@
 
 .multicolumn-card-spacing {
   padding-top: 2.5rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
 }
 
 .multicolumn-card__info > :nth-child(2) {
@@ -147,7 +153,7 @@
 }
 
 .multicolumn-card__info {
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 4.5rem 2.5rem;
 }
 
 .background-none .multicolumn-card__info {

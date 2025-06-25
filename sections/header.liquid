@@ -251,7 +251,7 @@
 
       {%- if shop.customer_accounts_enabled -%}
         {% if section.settings.account_menu != blank %}
-          <div class="account_menu_wrap">
+          <div class="account_menu_wrap small-hide">
             {% if section.settings.myaccout_text != blank %}
               <div class="a-text">{{section.settings.myaccout_text }}</div>
             {% endif %}
@@ -655,7 +655,7 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 36,
+      "max": 48,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
@@ -665,7 +665,7 @@
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
-      "max": 36,
+      "max": 48,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",

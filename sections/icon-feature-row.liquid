@@ -14,14 +14,14 @@
 <div class="icon-feature-container color-{{ section.settings.color_scheme }} gradient">
 <div class="page-width section-{{ section.id }}-padding">
 <div class="icon-feature-row">
-  <div class="feature-row-container grid grid--1-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
+  <div class="feature-row-container grid  grid--1-col-mobile  grid--3-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop">
     {% for block in section.blocks %}
     {% assign b = block.settings %}
       <div class="feature-item grid__item">
         {% if b.icon != blank %}
         {{ b.icon | image_url: width:300 | image_tag: loading: 'lazy', class: 'feature-icon' }}
         {% endif %}
-        <p class="feature-text">{{ b.heading }}</p>
+        <h5 class="feature-text uppercase">{{ b.heading }}</h5>
       </div>
     {% endfor %}
   </div>

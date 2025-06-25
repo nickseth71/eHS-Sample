@@ -328,8 +328,20 @@
 }
 
 @media screen and (max-width: 749px) {
+  .banner__buttons--multiple>a.button {
+   
+    flex: 1 1 calc(50% - .75rem);
+    min-width: auto;
+    text-align: center;
+}
+  .banner__buttons {flex-wrap: wrap;}
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
+    max-width: calc(100% - 20px);
+        margin: auto;
+        overflow: hidden;
+        margin-top: -100px;
+        background: #fff;border: 1px solid #D8D8D8
   }
 
   .banner:not(.banner--mobile-bottom) .field__input,
@@ -350,14 +362,16 @@
 }
 
 .banner--mobile-bottom .banner__box {
-  padding: 4rem 3.5rem;
+  padding: 2rem 1.7rem;
 }
 
 @media screen and (min-width: 750px) {
   .banner__box {
     padding: 4rem 3.5rem;
   }
-
+.banner--mobile-bottom .banner__box {
+  padding: 4rem 3.5rem;
+}
   .banner--desktop-transparent .banner__box {
     padding: 4rem 0;
     background: transparent;
@@ -443,15 +457,12 @@
 
 .banner__buttons {
   display: inline-flex;
-  flex-wrap: nowrap;
+  
   gap: 1.5rem;
  justify-content: space-between;
   word-break: break-word;
 }
-.banner__buttons--multiple > a.button {
-    min-width: 150px;
-    border-radius: 5px;
-}
+
 .banner__buttons--multiple > a.button:before, .banner__buttons--multiple > a.button:after{content:none}
 h2.banner__heading {letter-spacing: 5px; line-height: 100%;}
 @media screen and (max-width: 749px) {
@@ -466,6 +477,11 @@ h2.banner__heading {letter-spacing: 5px; line-height: 100%;}
 }
 
 @media screen and (min-width: 750px) {
+  .banner__buttons--multiple > a.button {
+    min-width: 150px;
+   
+}
+  .banner__buttons {  flex-wrap: nowrap;}
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
     min-width: 22rem;

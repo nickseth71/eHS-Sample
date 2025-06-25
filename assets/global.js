@@ -1351,7 +1351,7 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log(r_diff);
 
   if (window.innerWidth >= 749) {
-    document.querySelectorAll('.page-full-width').forEach(el => {
+    document.querySelectorAll('.custom_img-txt .page-width').forEach(el => {
       el.style.paddingLeft = `${r_diff}px`;
     });
   }
